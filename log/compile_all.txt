@@ -1,0 +1,6 @@
+javac -encoding iso-8859-1 -cp java/solution/bin/common:"java/lib/*" -d java/submissions/n9602976/bin java/submissions/n9602976/src/asgn1Election/Candidate.java java/submissions/n9602976/src/asgn1Election/CandidateIndex.java java/submissions/n9602976/src/asgn1Election/Collection.java java/submissions/n9602976/src/asgn1Election/VoteCollection.java java/submissions/n9602976/src/asgn1Election/Vote.java java/submissions/n9602976/src/asgn1Election/VoteList.java java/submissions/n9602976/src/asgn1Election/Election.java java/submissions/n9602976/src/asgn1Election/PrefElection.java java/submissions/n9602976/src/asgn1Election/SimpleElection.java java/submissions/n9602976/src/asgn1Election/ElectionManager.java java/submissions/n9602976/src/asgn1Election/ElectionException.java java/submissions/n9602976/src/asgn1Tests/CandidateTests.java java/submissions/n9602976/src/asgn1Tests/CandidateIndexTests.java java/submissions/n9602976/src/asgn1Tests/PrefElectionTests.java java/submissions/n9602976/src/asgn1Tests/SimpleElectionTests.java java/submissions/n9602976/src/asgn1Tests/VoteCollectionTests.java java/submissions/n9602976/src/asgn1Tests/VoteListTests.java java/submissions/n9602976/src/asgn1Tests/*
+
+
+
+-----------
+

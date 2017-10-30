@@ -1,0 +1,571 @@
+{
+  "submissionId": "n9602976",
+  "stages": {
+    "extracted": true,
+    "compiled": true,
+    "executed": true,
+    "complete": true
+  },
+  "raw": {
+    "studentImplementation_SolutionTests": {
+      "asgn1Tests.CandidateTests": {
+        "passed": 16,
+        "total": 16,
+        "log": "studentImplementation_SolutionTests_asgn1Tests.CandidateTests.txt"
+      },
+      "asgn1Tests.CandidateIndexTests": {
+        "passed": 11,
+        "total": 19,
+        "log": "studentImplementation_SolutionTests_asgn1Tests.CandidateIndexTests.txt"
+      },
+      "asgn1Tests.PrefElectionTests": {
+        "passed": 26,
+        "total": 29,
+        "log": "studentImplementation_SolutionTests_asgn1Tests.PrefElectionTests.txt"
+      },
+      "asgn1Tests.SimpleElectionTests": {
+        "passed": 17,
+        "total": 17,
+        "log": "studentImplementation_SolutionTests_asgn1Tests.SimpleElectionTests.txt"
+      },
+      "asgn1Tests.VoteCollectionTests": {
+        "passed": 11,
+        "total": 11,
+        "log": "studentImplementation_SolutionTests_asgn1Tests.VoteCollectionTests.txt"
+      },
+      "asgn1Tests.VoteListTests": {
+        "passed": 8,
+        "total": 12,
+        "log": "studentImplementation_SolutionTests_asgn1Tests.VoteListTests.txt"
+      }
+    },
+    "studentTests_SolutionImplementation": {
+      "asgn1Tests.CandidateTests": {
+        "passed": 19,
+        "total": 19,
+        "log": "studentTests_SolutionImplementation_asgn1Tests.CandidateTests.txt"
+      },
+      "asgn1Tests.CandidateIndexTests": {
+        "passed": 12,
+        "total": 12,
+        "log": "studentTests_SolutionImplementation_asgn1Tests.CandidateIndexTests.txt"
+      },
+      "asgn1Tests.PrefElectionTests": {
+        "passed": 24,
+        "total": 25,
+        "log": "studentTests_SolutionImplementation_asgn1Tests.PrefElectionTests.txt"
+      },
+      "asgn1Tests.SimpleElectionTests": {
+        "passed": 13,
+        "total": 13,
+        "log": "studentTests_SolutionImplementation_asgn1Tests.SimpleElectionTests.txt"
+      },
+      "asgn1Tests.VoteCollectionTests": {
+        "passed": 9,
+        "total": 9,
+        "log": "studentTests_SolutionImplementation_asgn1Tests.VoteCollectionTests.txt"
+      },
+      "asgn1Tests.VoteListTests": {
+        "passed": 9,
+        "total": 10,
+        "log": "studentTests_SolutionImplementation_asgn1Tests.VoteListTests.txt"
+      }
+    },
+    "studentTests_BrokenImplementations": {
+      "riggedPrefElections": {
+        "ElectionBrokenIsTypeString": {
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 24,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedPrefElections_ElectionBrokenIsTypeString_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "ElectionBrokenIsValid": {
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 24,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedPrefElections_ElectionBrokenIsValid_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "ElectionBrokenLoadVotes": {
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 23,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedPrefElections_ElectionBrokenLoadVotes_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "ElectionBrokenLoadVotesIncorrectVoteCount": {
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 23,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedPrefElections_ElectionBrokenLoadVotesIncorrectVoteCount_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "PrefElectionCorruptConstructorType": {
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 2,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedPrefElections_PrefElectionCorruptConstructorType_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "PrefElectionFindWinnerFail": {
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 24,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedPrefElections_PrefElectionFindWinnerFail_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "PrefElectionFindWinnerIncorrectWInner": {
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 23,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedPrefElections_PrefElectionFindWinnerIncorrectWInner_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "PrefElectionFindWinnerNoStringBuild": {
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 23,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedPrefElections_PrefElectionFindWinnerNoStringBuild_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "PrefElectionIsFormalFails": {
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 23,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedPrefElections_PrefElectionIsFormalFails_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "PrefElectionReturnTrueFormalVotes": {
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 16,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedPrefElections_PrefElectionReturnTrueFormalVotes_asgn1Tests.PrefElectionTests.txt"
+          }
+        }
+      },
+      "riggedSimpleElections": {
+        "SimpleElectionConstructorFails": {
+          "asgn1Tests.SimpleElectionTests": {
+            "passed": 2,
+            "total": 13,
+            "log": "studentTests_BrokenImplementations_riggedSimpleElections_SimpleElectionConstructorFails_asgn1Tests.SimpleElectionTests.txt"
+          }
+        },
+        "SimpleElectionFindWinnerFails": {
+          "asgn1Tests.SimpleElectionTests": {
+            "passed": 12,
+            "total": 13,
+            "log": "studentTests_BrokenImplementations_riggedSimpleElections_SimpleElectionFindWinnerFails_asgn1Tests.SimpleElectionTests.txt"
+          }
+        },
+        "SimpleElectionFindWinnerNeverFound": {
+          "asgn1Tests.SimpleElectionTests": {
+            "passed": 12,
+            "total": 13,
+            "log": "studentTests_BrokenImplementations_riggedSimpleElections_SimpleElectionFindWinnerNeverFound_asgn1Tests.SimpleElectionTests.txt"
+          }
+        },
+        "SimpleElectionIsFormalFails": {
+          "asgn1Tests.SimpleElectionTests": {
+            "passed": 4,
+            "total": 13,
+            "log": "studentTests_BrokenImplementations_riggedSimpleElections_SimpleElectionIsFormalFails_asgn1Tests.SimpleElectionTests.txt"
+          }
+        },
+        "SimpleElectionIsFormalOutOfRange": {
+          "asgn1Tests.SimpleElectionTests": {
+            "passed": 12,
+            "total": 13,
+            "log": "studentTests_BrokenImplementations_riggedSimpleElections_SimpleElectionIsFormalOutOfRange_asgn1Tests.SimpleElectionTests.txt"
+          }
+        }
+      },
+      "riggedElections": {
+        "ElectionBrokenIsTypeString": {
+          "asgn1Tests.SimpleElectionTests": {
+            "passed": 13,
+            "total": 13,
+            "log": "studentTests_BrokenImplementations_riggedElections_ElectionBrokenIsTypeString_asgn1Tests.SimpleElectionTests.txt"
+          },
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 24,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedElections_ElectionBrokenIsTypeString_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "ElectionBrokenIsValid": {
+          "asgn1Tests.SimpleElectionTests": {
+            "passed": 13,
+            "total": 13,
+            "log": "studentTests_BrokenImplementations_riggedElections_ElectionBrokenIsValid_asgn1Tests.SimpleElectionTests.txt"
+          },
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 24,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedElections_ElectionBrokenIsValid_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "ElectionBrokenLoadVotes": {
+          "asgn1Tests.SimpleElectionTests": {
+            "passed": 12,
+            "total": 13,
+            "log": "studentTests_BrokenImplementations_riggedElections_ElectionBrokenLoadVotes_asgn1Tests.SimpleElectionTests.txt"
+          },
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 23,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedElections_ElectionBrokenLoadVotes_asgn1Tests.PrefElectionTests.txt"
+          }
+        },
+        "ElectionBrokenLoadVotesIncorrectVoteCount": {
+          "asgn1Tests.SimpleElectionTests": {
+            "passed": 12,
+            "total": 13,
+            "log": "studentTests_BrokenImplementations_riggedElections_ElectionBrokenLoadVotesIncorrectVoteCount_asgn1Tests.SimpleElectionTests.txt"
+          },
+          "asgn1Tests.PrefElectionTests": {
+            "passed": 23,
+            "total": 25,
+            "log": "studentTests_BrokenImplementations_riggedElections_ElectionBrokenLoadVotesIncorrectVoteCount_asgn1Tests.PrefElectionTests.txt"
+          }
+        }
+      },
+      "wrongCandidateIndices": {
+        "CandidateIndexBrokenInRange": {
+          "asgn1Tests.CandidateIndexTests": {
+            "passed": 11,
+            "total": 12,
+            "log": "studentTests_BrokenImplementations_wrongCandidateIndices_CandidateIndexBrokenInRange_asgn1Tests.CandidateIndexTests.txt"
+          }
+        },
+        "CandidateIndexBrokenInRangeSecond": {
+          "asgn1Tests.CandidateIndexTests": {
+            "passed": 9,
+            "total": 12,
+            "log": "studentTests_BrokenImplementations_wrongCandidateIndices_CandidateIndexBrokenInRangeSecond_asgn1Tests.CandidateIndexTests.txt"
+          }
+        },
+        "CandidateIndexCompareToBroken": {
+          "asgn1Tests.CandidateIndexTests": {
+            "passed": 9,
+            "total": 12,
+            "log": "studentTests_BrokenImplementations_wrongCandidateIndices_CandidateIndexCompareToBroken_asgn1Tests.CandidateIndexTests.txt"
+          }
+        },
+        "CandidateIndexConstructorNotConstructing": {
+          "asgn1Tests.CandidateIndexTests": {
+            "passed": 7,
+            "total": 12,
+            "log": "studentTests_BrokenImplementations_wrongCandidateIndices_CandidateIndexConstructorNotConstructing_asgn1Tests.CandidateIndexTests.txt"
+          }
+        },
+        "CandidateIndexCopyNotDeep": {
+          "asgn1Tests.CandidateIndexTests": {
+            "passed": 11,
+            "total": 12,
+            "log": "studentTests_BrokenImplementations_wrongCandidateIndices_CandidateIndexCopyNotDeep_asgn1Tests.CandidateIndexTests.txt"
+          }
+        },
+        "CandidateIndexInRangeIncorrect": {
+          "asgn1Tests.CandidateIndexTests": {
+            "passed": 8,
+            "total": 12,
+            "log": "studentTests_BrokenImplementations_wrongCandidateIndices_CandidateIndexInRangeIncorrect_asgn1Tests.CandidateIndexTests.txt"
+          }
+        },
+        "CandidateIndexIncrementNotIncrementing": {
+          "asgn1Tests.CandidateIndexTests": {
+            "passed": 11,
+            "total": 12,
+            "log": "studentTests_BrokenImplementations_wrongCandidateIndices_CandidateIndexIncrementNotIncrementing_asgn1Tests.CandidateIndexTests.txt"
+          }
+        }
+      },
+      "corruptCandidates": {
+        "CandidateConstructorAllowsNullEmpty": {
+          "asgn1Tests.CandidateTests": {
+            "passed": 10,
+            "total": 19,
+            "log": "studentTests_BrokenImplementations_corruptCandidates_CandidateConstructorAllowsNullEmpty_asgn1Tests.CandidateTests.txt"
+          }
+        },
+        "CandidateConstructorNotConstructing": {
+          "asgn1Tests.CandidateTests": {
+            "passed": 15,
+            "total": 19,
+            "log": "studentTests_BrokenImplementations_corruptCandidates_CandidateConstructorNotConstructing_asgn1Tests.CandidateTests.txt"
+          }
+        },
+        "CandidateCopyNotDeep": {
+          "asgn1Tests.CandidateTests": {
+            "passed": 18,
+            "total": 19,
+            "log": "studentTests_BrokenImplementations_corruptCandidates_CandidateCopyNotDeep_asgn1Tests.CandidateTests.txt"
+          }
+        },
+        "CandidateIncrementVoteCountBroken": {
+          "asgn1Tests.CandidateTests": {
+            "passed": 17,
+            "total": 19,
+            "log": "studentTests_BrokenImplementations_corruptCandidates_CandidateIncrementVoteCountBroken_asgn1Tests.CandidateTests.txt"
+          }
+        }
+      },
+      "brokenVotesCollections": {
+        "VoteCollectionConstructorAllowsInvalidNumCandidates": {
+          "asgn1Tests.VoteCollectionTests": {
+            "passed": 7,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_brokenVotesCollections_VoteCollectionConstructorAllowsInvalidNumCandidates_asgn1Tests.VoteCollectionTests.txt"
+          }
+        },
+        "VoteCollectionConstructorNotConstructing": {
+          "asgn1Tests.VoteCollectionTests": {
+            "passed": 4,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_brokenVotesCollections_VoteCollectionConstructorNotConstructing_asgn1Tests.VoteCollectionTests.txt"
+          }
+        },
+        "VoteCollectionCountPrefVotesNotDistributing": {
+          "asgn1Tests.VoteCollectionTests": {
+            "passed": 8,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_brokenVotesCollections_VoteCollectionCountPrefVotesNotDistributing_asgn1Tests.VoteCollectionTests.txt"
+          }
+        },
+        "VoteCollectionCountPrimaryVotesNotCounting": {
+          "asgn1Tests.VoteCollectionTests": {
+            "passed": 7,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_brokenVotesCollections_VoteCollectionCountPrimaryVotesNotCounting_asgn1Tests.VoteCollectionTests.txt"
+          }
+        },
+        "VoteCollectionEmptyCollectionNotClearingCollection": {
+          "asgn1Tests.VoteCollectionTests": {
+            "passed": 9,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_brokenVotesCollections_VoteCollectionEmptyCollectionNotClearingCollection_asgn1Tests.VoteCollectionTests.txt"
+          }
+        },
+        "VoteCollectionEmptyCollectionNotResettingCounts": {
+          "asgn1Tests.VoteCollectionTests": {
+            "passed": 8,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_brokenVotesCollections_VoteCollectionEmptyCollectionNotResettingCounts_asgn1Tests.VoteCollectionTests.txt"
+          }
+        },
+        "VoteCollectionInclFormalVoteNotAdding": {
+          "asgn1Tests.VoteCollectionTests": {
+            "passed": 5,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_brokenVotesCollections_VoteCollectionInclFormalVoteNotAdding_asgn1Tests.VoteCollectionTests.txt"
+          }
+        },
+        "VoteCollectionInclFormalVoteNotIncrementing": {
+          "asgn1Tests.VoteCollectionTests": {
+            "passed": 7,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_brokenVotesCollections_VoteCollectionInclFormalVoteNotIncrementing_asgn1Tests.VoteCollectionTests.txt"
+          }
+        },
+        "VoteCollectionUpdateInformalNotUpdating": {
+          "asgn1Tests.VoteCollectionTests": {
+            "passed": 7,
+            "total": 9,
+            "log": "studentTests_BrokenImplementations_brokenVotesCollections_VoteCollectionUpdateInformalNotUpdating_asgn1Tests.VoteCollectionTests.txt"
+          }
+        }
+      },
+      "incorrectVoteLists": {
+        "VoteListAddPrefAlwaysAdds": {
+          "asgn1Tests.VoteListTests": {
+            "passed": 7,
+            "total": 10,
+            "log": "studentTests_BrokenImplementations_incorrectVoteLists_VoteListAddPrefAlwaysAdds_asgn1Tests.VoteListTests.txt"
+          }
+        },
+        "VoteListAddPrefsNotAdding": {
+          "asgn1Tests.VoteListTests": {
+            "passed": 0,
+            "total": 10,
+            "log": "studentTests_BrokenImplementations_incorrectVoteLists_VoteListAddPrefsNotAdding_asgn1Tests.VoteListTests.txt"
+          }
+        },
+        "VoteListConstructorNotConstructing": {
+          "asgn1Tests.VoteListTests": {
+            "passed": 0,
+            "total": 10,
+            "log": "studentTests_BrokenImplementations_incorrectVoteLists_VoteListConstructorNotConstructing_asgn1Tests.VoteListTests.txt"
+          }
+        },
+        "VoteListCopyVoteNotDeep": {
+          "asgn1Tests.VoteListTests": {
+            "passed": 8,
+            "total": 10,
+            "log": "studentTests_BrokenImplementations_incorrectVoteLists_VoteListCopyVoteNotDeep_asgn1Tests.VoteListTests.txt"
+          }
+        },
+        "VoteListCopyVoteReturnsEmptyVoteList": {
+          "asgn1Tests.VoteListTests": {
+            "passed": 9,
+            "total": 10,
+            "log": "studentTests_BrokenImplementations_incorrectVoteLists_VoteListCopyVoteReturnsEmptyVoteList_asgn1Tests.VoteListTests.txt"
+          }
+        },
+        "VoteListGetPreferenceAlwaysGetsMostPreferred": {
+          "asgn1Tests.VoteListTests": {
+            "passed": 8,
+            "total": 10,
+            "log": "studentTests_BrokenImplementations_incorrectVoteLists_VoteListGetPreferenceAlwaysGetsMostPreferred_asgn1Tests.VoteListTests.txt"
+          }
+        },
+        "VoteListGetPreferenceOffByOne": {
+          "asgn1Tests.VoteListTests": {
+            "passed": 8,
+            "total": 10,
+            "log": "studentTests_BrokenImplementations_incorrectVoteLists_VoteListGetPreferenceOffByOne_asgn1Tests.VoteListTests.txt"
+          }
+        },
+        "VoteListInvertVoteNotInverted": {
+          "asgn1Tests.VoteListTests": {
+            "passed": 8,
+            "total": 10,
+            "log": "studentTests_BrokenImplementations_incorrectVoteLists_VoteListInvertVoteNotInverted_asgn1Tests.VoteListTests.txt"
+          }
+        }
+      }
+    }
+  },
+  "calculated": {
+    "implementation": {
+      "asgn1Tests.CandidateTests": {
+        "mark": 1,
+        "total": 1
+      },
+      "asgn1Tests.PrefElectionTests": {
+        "mark": 1.793103448275862,
+        "total": 2
+      },
+      "asgn1Tests.SimpleElectionTests": {
+        "mark": 1,
+        "total": 1
+      },
+      "asgn1Tests.VoteCollectionTests": {
+        "mark": 1.5,
+        "total": 1.5
+      },
+      "asgn1Tests.VoteListTests": {
+        "mark": 1,
+        "total": 1.5
+      }
+    },
+    "tests": {
+      "riggedPrefElections": {
+        "mark": 1.4,
+        "total": 2
+      },
+      "riggedSimpleElections": {
+        "mark": 1,
+        "total": 1
+      },
+      "wrongCandidateIndices": {
+        "mark": 1,
+        "total": 1
+      },
+      "corruptCandidates": {
+        "mark": 1,
+        "total": 1
+      },
+      "brokenVotesCollections": {
+        "mark": 1.3333333333333333,
+        "total": 1.5
+      },
+      "incorrectVoteLists": {
+        "mark": 1.3125,
+        "total": 1.5
+      }
+    },
+    "detected": {
+      "riggedPrefElections": {
+        "ElectionBrokenIsTypeString": false,
+        "ElectionBrokenIsValid": false,
+        "ElectionBrokenLoadVotes": true,
+        "ElectionBrokenLoadVotesIncorrectVoteCount": true,
+        "PrefElectionCorruptConstructorType": true,
+        "PrefElectionFindWinnerFail": false,
+        "PrefElectionFindWinnerIncorrectWInner": true,
+        "PrefElectionFindWinnerNoStringBuild": true,
+        "PrefElectionIsFormalFails": true,
+        "PrefElectionReturnTrueFormalVotes": true
+      },
+      "riggedSimpleElections": {
+        "SimpleElectionConstructorFails": true,
+        "SimpleElectionFindWinnerFails": true,
+        "SimpleElectionFindWinnerNeverFound": true,
+        "SimpleElectionIsFormalFails": true,
+        "SimpleElectionIsFormalOutOfRange": true
+      },
+      "wrongCandidateIndices": {
+        "CandidateIndexBrokenInRange": true,
+        "CandidateIndexBrokenInRangeSecond": true,
+        "CandidateIndexCompareToBroken": true,
+        "CandidateIndexConstructorNotConstructing": true,
+        "CandidateIndexCopyNotDeep": true,
+        "CandidateIndexInRangeIncorrect": true,
+        "CandidateIndexIncrementNotIncrementing": true
+      },
+      "corruptCandidates": {
+        "CandidateConstructorAllowsNullEmpty": true,
+        "CandidateConstructorNotConstructing": true,
+        "CandidateCopyNotDeep": true,
+        "CandidateIncrementVoteCountBroken": true
+      },
+      "brokenVotesCollections": {
+        "VoteCollectionConstructorAllowsInvalidNumCandidates": true,
+        "VoteCollectionConstructorNotConstructing": true,
+        "VoteCollectionCountPrefVotesNotDistributing": true,
+        "VoteCollectionCountPrimaryVotesNotCounting": true,
+        "VoteCollectionEmptyCollectionNotClearingCollection": false,
+        "VoteCollectionEmptyCollectionNotResettingCounts": true,
+        "VoteCollectionInclFormalVoteNotAdding": true,
+        "VoteCollectionInclFormalVoteNotIncrementing": true,
+        "VoteCollectionUpdateInformalNotUpdating": true
+      },
+      "incorrectVoteLists": {
+        "VoteListAddPrefAlwaysAdds": true,
+        "VoteListAddPrefsNotAdding": true,
+        "VoteListConstructorNotConstructing": true,
+        "VoteListCopyVoteNotDeep": true,
+        "VoteListCopyVoteReturnsEmptyVoteList": false,
+        "VoteListGetPreferenceAlwaysGetsMostPreferred": true,
+        "VoteListGetPreferenceOffByOne": true,
+        "VoteListInvertVoteNotInverted": true
+      }
+    }
+  },
+  "marks": {
+    "implementation": {
+      "criteria": "Model Implementation",
+      "mark": 6.293,
+      "total": 7
+    },
+    "tests": {
+      "criteria": "Unit Tests",
+      "mark": 7.046,
+      "total": 8
+    },
+    "cq": {
+      "mark": 5,
+      "total": 5,
+      "criteria": "Code Quality"
+    }
+  },
+  "comments": "Good job! <br />\nCode quality: No significant issues. White spacing could be a tiny bit more consistent, and commenting can get a little bit excessive in some methods.",
+  "total": {
+    "mark": 18.339,
+    "total": 20
+  },
+  "pkg": null,
+  "package": "C:\\Users\\holly\\Documents\\2016Sem1\\Tutoring\\softwareDev\\autoMarker\\java\\completed\\n9602976.zip"
+}
